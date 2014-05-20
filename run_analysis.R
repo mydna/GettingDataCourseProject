@@ -30,7 +30,7 @@ Y[,1] = activitylabels[Y[,1], 2]
 names(Y) <- "activity"
 names(subject) <- "subject"
 tidydata1 <- cbind(subject, Y, X)
-write.table(tidydata1, "merged_tidy_data.txt", sep="\t")
+write.table(tidydata1, "merged_tidy_data.txt", sep="\t",row.names=FALSE)
 
 nColumns = dim(tidydata1)[2]
 nActivities = length(activitylabels[,1])
@@ -49,4 +49,4 @@ for (a in 1:nDistSubjects) {
   }
 }
 
-write.table(tidydata2, "tidy_dataset_2_with_averages.txt",sep="\t")
+write.table(tidydata2, "tidy_dataset_2_with_averages.txt",sep="\t",row.names=FALSE)
