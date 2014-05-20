@@ -1,5 +1,5 @@
 # Getting and Cleaning Data Course Project
-## This readme file details the analysis for the Getting and Cleaning Data course project in the R series.
+#### This readme file details the analysis for the Getting and Cleaning Data course project in the R series.
 
 
 * This analysis requires that the data is downloaded and unzipped to the working directory where the run_analysis.R file is run.
